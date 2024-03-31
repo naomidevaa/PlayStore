@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PlayStore</string>
+    <string name="info_app_name">Nama Aplikasi</string>
+    <string name="info_app_icon">Icon Aplikasi</string>
+
+    <!-- Nama aplikasi -->
+    <string-array name="app_names">
+        <item>WhatsApp</item>
+        <item>Instagram</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>YouTube</item>
+        <item>Spotify</item>
+        <item>Netflix</item>
+        <item>Wattpad</item>
+        <item>Gmail</item>
+        <item>Google Maps</item>
+        <item>Snapchat</item>
+        <item>TikTok</item>
+        <item>LinkedIn</item>
+        <item>Zoom</item>
+        <item>Telegram</item>
+        <item>Pinterest</item>
+    </string-array>
+
+    <!-- Sumber gambar aplikasi -->
+    <string-array name="app_icons">
+        <item>@drawable/ic_whatsapp</item>
+        <item>@drawable/ic_instagram</item>
+        <item>@drawable/ic_facebook</item>
+        <item>@drawable/ic_twitter</item>
+        <item>@drawable/ic_youtube</item>
+        <item>@drawable/ic_spotify</item>
+        <item>@drawable/ic_netflix</item>
+        <item>@drawable/ic_wattpad</item>
+        <item>@drawable/ic_gmail</item>
+        <item>@drawable/ic_google_maps</item>
+        <item>@drawable/ic_snapchat</item>
+        <item>@drawable/ic_tiktok</item>
+        <item>@drawable/ic_linkedin</item>
+        <item>@drawable/ic_zoom</item>
+        <item>@drawable/ic_telegram</item>
+        <item>@drawable/ic_pinterest</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/white"
+    android:columnCount="4"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:rowCount="4">
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        tools:listitem="@layout/item_app" />
+
+    <!-- App Icon -->
+    <ImageView
+        android:id="@+id/ivAppIcon"
+        android:layout_width="68dp"
+        android:layout_height="76dp"
+        android:contentDescription="@string/info_app_icon"
+        tools:ignore="ImageContrastCheck" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/info_app_name"
+        android:textColor="@android:color/black"
+        android:textSize="9sp"
+        tools:ignore="SmallSp" />
+
+</GridLayout>
